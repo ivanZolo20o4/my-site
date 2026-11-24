@@ -1,0 +1,130 @@
+body {
+    background-color: #b7d6ff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title {
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.title span {
+    color: #1538ff;
+    font-size: 40px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main img {
+    max-width: 600px;
+}
+
+.main-info {
+    max-width: 500px;
+}
+
+.main-info ul {
+    padding-left: 17px;
+}
+
+.main-info a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #5b8fff;
+}
+
+.main2 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main2 img {
+    max-width: 600px;
+}
+
+.main-info2 {
+    margin-left: 50px;
+    max-width: 700px;
+}
+
+.main-info2 ul {
+    padding-left: 17px;
+}
+
+.ul-2-1 {
+    list-style-image: url(img/icons/image1);
+}
+
+.ul-2-2 {
+    list-style-image: url(img/icons/free-icon-font-phone-call-3916862.svg);
+}
+
+.ul-2-3 {
+    list-style-image: url(img/icons/free-icon-font-phone-call-5070407.svg);
+}
+
+
+.form {
+    max-width: 420px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    max-width: 420px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.form input {
+    padding: 10px;
+    font-size: 23px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #0d00ff;
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgb(120, 134, 255);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form input, #textarea {
+    padding: 10px;
+    font-size: 23px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #6c63ff;
+}
+
+.form button {
+    text-transform: uppercase;
+    background-color: #3e34fd;
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: #4f45ff 3px solid;
+    color: rgb(174, 189, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form button:hover {
+    background-color: rgb(179, 193, 255);
+    color: black;
+    border: #5675ff 3px solid;
+}
